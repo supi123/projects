@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="angularModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="xml_table">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FacilityID" Type="nvarchar" MaxLength="500" />
+          <Property Name="FacilityName" Type="nvarchar" MaxLength="500" />
+          <Property Name="WorkerID" Type="float" />
+          <Property Name="DateOfHire" Type="nvarchar" MaxLength="500" />
+          <Property Name="TerminationDate" Type="nvarchar" MaxLength="500" />
+          <Property Name="WorkDate" Type="nvarchar" MaxLength="500" />
+          <Property Name="JobTitleCode" Type="nvarchar" MaxLength="500" />
+          <Property Name="DepartmentCode" Type="nvarchar" MaxLength="500" />
+          <Property Name="PayCode" Type="nvarchar" MaxLength="500" />
+          <Property Name="PayType" Type="nvarchar" MaxLength="500" />
+          <Property Name="Hours" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityContainer Name="angularModelStoreContainer">
+          <EntitySet Name="xml_table" EntityType="Self.xml_table" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="angularModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="angularEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="xml_table" EntityType="angularModel.xml_table" />
+        </EntityContainer>
+        <EntityType Name="xml_table">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FacilityID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="FacilityName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="WorkerID" Type="Double" />
+          <Property Name="DateOfHire" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TerminationDate" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="WorkDate" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="JobTitleCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DepartmentCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="PayCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="PayType" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Hours" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="angularModelStoreContainer" CdmEntityContainer="angularEntities" >
+          <EntitySetMapping Name="xml_table">
+            <EntityTypeMapping TypeName="angularModel.xml_table">
+              <MappingFragment StoreEntitySet="xml_table">
+                <ScalarProperty Name="Hours" ColumnName="Hours" />
+                <ScalarProperty Name="PayType" ColumnName="PayType" />
+                <ScalarProperty Name="PayCode" ColumnName="PayCode" />
+                <ScalarProperty Name="DepartmentCode" ColumnName="DepartmentCode" />
+                <ScalarProperty Name="JobTitleCode" ColumnName="JobTitleCode" />
+                <ScalarProperty Name="WorkDate" ColumnName="WorkDate" />
+                <ScalarProperty Name="TerminationDate" ColumnName="TerminationDate" />
+                <ScalarProperty Name="DateOfHire" ColumnName="DateOfHire" />
+                <ScalarProperty Name="WorkerID" ColumnName="WorkerID" />
+                <ScalarProperty Name="FacilityName" ColumnName="FacilityName" />
+                <ScalarProperty Name="FacilityID" ColumnName="FacilityID" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

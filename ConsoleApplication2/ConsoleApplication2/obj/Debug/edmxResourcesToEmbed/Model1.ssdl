@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="angularModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="xml_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacilityID" Type="nvarchar" MaxLength="500" />
+    <Property Name="FacilityName" Type="nvarchar" MaxLength="500" />
+    <Property Name="WorkerID" Type="float" />
+    <Property Name="DateOfHire" Type="nvarchar" MaxLength="500" />
+    <Property Name="TerminationDate" Type="nvarchar" MaxLength="500" />
+    <Property Name="WorkDate" Type="nvarchar" MaxLength="500" />
+    <Property Name="JobTitleCode" Type="nvarchar" MaxLength="500" />
+    <Property Name="DepartmentCode" Type="nvarchar" MaxLength="500" />
+    <Property Name="PayCode" Type="nvarchar" MaxLength="500" />
+    <Property Name="PayType" Type="nvarchar" MaxLength="500" />
+    <Property Name="Hours" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="angularModelStoreContainer">
+    <EntitySet Name="xml_table" EntityType="Self.xml_table" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

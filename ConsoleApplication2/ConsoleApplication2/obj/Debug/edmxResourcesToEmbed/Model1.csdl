@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="angularModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="angularEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="xml_table" EntityType="angularModel.xml_table" />
+  </EntityContainer>
+  <EntityType Name="xml_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FacilityID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FacilityName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WorkerID" Type="Double" />
+    <Property Name="DateOfHire" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TerminationDate" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WorkDate" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="JobTitleCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PayCode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PayType" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Hours" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

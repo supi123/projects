@@ -1,0 +1,377 @@
+<book genre="novel" ISBN="1-861001-57-5">
+  <title>Pride And Prejudice</title>
+  <staffHours>
+    <employeeId>1015190</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1014730</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1014470</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1013650</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1013450</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1013080</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1013060</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1012910</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1012900</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>1011790</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>168684</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>168261</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>168163</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>168153</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>167920</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>167896</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>167171</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>166364</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>164985</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>161616</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>158344</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>157139</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>146463</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>140347</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>138036</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>125758</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>115200</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>104705</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>91186</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>89361</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>83182</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>63983</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>63868</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+  <staffHours>
+    <employeeId>63848</employeeId>
+    <workDays>
+      <workDay>
+        <date />
+        <hourEntries>
+          <hourEntry />
+        </hourEntries>
+      </workDay>
+    </workDays>
+  </staffHours>
+</book>
