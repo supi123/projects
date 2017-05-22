@@ -74,14 +74,26 @@ namespace ConsoleApplication5
 
                 string c = a + b;
 
-                var charArray = a.ToCharArray();
+                var charArray = c.ToCharArray();
+
+                //Array[] charArray = new Array;
+                for (int i = 0; i < c.Length; i++)
+                {
+
+                    Console.WriteLine(charArray[i]);
+
+                   // Console.ReadLine();
+                }
 
 
-                //{'1','2','3','4','5'}
-                //  charArray[i] = b.ToCharArray();
 
 
-                Console.ReadLine();
+
+                   //{'1','2','3','4','5'}
+                   // charArray[] = b.ToCharArray();
+
+
+                   Console.ReadLine();
 
                 //Console.WriteLine("Enter the string");
 
@@ -130,6 +142,8 @@ namespace ConsoleApplication5
 
 
                 //        }
+
+
 
 
                 //    }

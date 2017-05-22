@@ -4,3 +4,9 @@ F:\supriya\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5
 F:\supriya\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
 F:\supriya\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
 F:\supriya\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+F:\supriya\New folder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
